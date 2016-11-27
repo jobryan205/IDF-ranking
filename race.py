@@ -1,3 +1,5 @@
+from PyMongo import MongoClient
+
 class Racer:
     def __init__(self, id, name):
         self.id = id
